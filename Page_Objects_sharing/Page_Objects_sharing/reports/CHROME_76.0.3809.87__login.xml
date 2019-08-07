@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="4"
+    tests="1" time="3.210" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="login" time="3.210" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Try to login with no username or password" classname="login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with a username and no password" classname="login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with a password and no username" classname="login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter wrong username and password" classname="login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

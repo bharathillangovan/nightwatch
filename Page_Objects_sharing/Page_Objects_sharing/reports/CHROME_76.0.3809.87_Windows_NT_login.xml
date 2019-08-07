@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="11"
+            failures="11"
+            tests="4">
+
+  <testsuite name="login"
+    errors="11" failures="11" hostname="" id="" package="login" skipped="1"
+    tests="4" time="74.62" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="login" time="12.16" assertions="5">
+
+      <failure message="Testing if element &lt;#username&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Login Page Initial Render (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:7:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if element &lt;#password&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Login Page Initial Render (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:8:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if value of &lt;input[type=submit]&gt; equals: &#34;Log In&#34; in 1000 ms. - expected [0;32m&#34;Log In&#34;[0m but got: [0;31m&#34;Login&#34;[0m">    at Object.Login Page Initial Render (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:9:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    
+
+    <failure message="    at Object.Login Page Initial Render (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:9:15)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" classname="login" time="25.06" assertions="4">  <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with no username or password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:21:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &#34;Username and Password is empty&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Username and Password is empty&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with no username or password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:22:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with no username or password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:23:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with no username or password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:24:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    <failure message="    at Object.Try to login with no username or password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:24:15)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" classname="login" time="37.39" assertions="4">  <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with a username and no password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:36:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &#34;Password is empty&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Password is empty&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with a username and no password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:37:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with a username and no password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:38:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Try to login with a username and no password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:39:15)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    <failure message="    at Object.Try to login with a username and no password (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login.js:39:15)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  
+    <testcase name="Try to login with a password and no username" classname="login" time="0" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;Connection refused to 127.0.0.1:4444&#34;. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.[0m
+[0;90m       at Socket.socketErrorListener (_http_client.js:387:9)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Enter wrong username and password" classname="login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="login-basic-objects"
+    errors="1" failures="0" hostname="" id="" package="login-basic-objects" skipped="4"
+    tests="1" time="3.292" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="login-basic-objects" time="3.292" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Try to login with no username or password" classname="login-basic-objects">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with a username and no password" classname="login-basic-objects">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with a password and no username" classname="login-basic-objects">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter wrong username and password" classname="login-basic-objects">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

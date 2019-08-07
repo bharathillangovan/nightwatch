@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="login-basic-objects"
+    errors="0" failures="1" hostname="" id="" package="login-basic-objects" skipped="0"
+    tests="1" time="1.635" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="login-basic-objects" time="1.635" assertions="5">
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;Element [name=@submit]&gt; equals: &#34;Log In&#34; in 1000 ms. - expected [0;32m&#34;Log In&#34;[0m but got: [0;31m&#34;Login&#34;[0m">    at Object.Login Page Initial Render (E:\automation\nightwatch\assignments\Page_Objects_sharing\Page_Objects_sharing\tests\login-basic-objects.js:10:15)</failure>
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;Connection refused to 127.0.0.1:4444&#34;. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.[0m
+[0;90m       at Socket.socketErrorListener (_http_client.js:387:9)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
